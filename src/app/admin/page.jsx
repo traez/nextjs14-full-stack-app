@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-export default function HomePage() {
+export default function AdminPage() {
   return (
     <main>
-      <h1>Hello World</h1>
+      <h1>AdminPage</h1>
     </main>
   );
 }
