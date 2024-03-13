@@ -1,10 +1,21 @@
-import Image from "next/image";
+import PostCard from "@/components/postCard/postCard";
+import styles from "./blog.module.css";
 
 export default function BlogPage() {
-
   return (
-    <main>
-      <h1>BlogPage</h1>
-    </main>
+    <div className={styles.container}>
+      <div className={styles.post}>
+        <PostCard />
+      </div>
+      <div className={styles.post}>
+        <PostCard />
+      </div>
+      <div className={styles.post}>
+        <PostCard />
+      </div>
+      <div className={styles.post}>
+        <PostCard />
+      </div>
+    </div>
   );
 }
