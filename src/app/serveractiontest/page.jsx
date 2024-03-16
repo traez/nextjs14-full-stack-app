@@ -1,4 +1,4 @@
-import { addPost,deletePost } from "@/lib/actions";
+import { addPost,deletePost } from "@/lib/action";
 
 export default function ServerActionTestPage() {
 
