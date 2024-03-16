@@ -4,10 +4,11 @@ import PostUser from "@/components/postUser/postUser";
 import styles from "./singlePost.module.css";
 import { getPost } from "@/lib/data";
 
+const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 
 // FETCH DATA WITH AN API
 const getData = async (slug) => {
-  const res = await fetch(`http://localhost:3000/api/blog/${slug}`);
+  const res = await fetch(`${apiUrl}/blog/${slug}`);
 
   if (!res.ok) {
     throw new Error("Something went wrong");
