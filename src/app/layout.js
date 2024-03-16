@@ -7,7 +7,10 @@ import Footer from "@/components/footer/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Nextjs14 FullStack App",
+   title: {
+    default:"Nextjs14 FullStack App Homepage",
+    template:"%s | Nextjs14"
+  },
   description: "Created by Trae Zeeofor",
 };
 

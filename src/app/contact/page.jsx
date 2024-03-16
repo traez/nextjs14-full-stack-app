@@ -7,6 +7,11 @@ import styles from "./contact.module.css";
 //const a = Math.random();
 //console.log(a);
 
+export const metadata = {
+  title: "Contact Page",
+  description: "Contact description",
+};
+
 export default function ContactPage() {
   return (
     <div className={styles.container}>
